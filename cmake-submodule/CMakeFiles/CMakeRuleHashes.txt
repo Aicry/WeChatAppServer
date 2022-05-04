@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+a3d49552b21d8cff9fa82d742698089a muduo/muduo/net/protorpc/rpc.pb.cc
