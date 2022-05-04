@@ -6,20 +6,19 @@
 #include<map>
 #include"MyDB.h"
 #include"struct.h"
-#include"Sharefunction.h"
+#include"Sharefunction.cc"
 using namespace std;
 
 class Share
 {
 
 public:
-
- ChangePwdMsg StringToChangePwdMsg(string param);
+ Share(){db.initDB("localhost","root","521011","WeChatApp");};
  string ChangePwd(string param);
  string userType(string Type);
 
 private:
- 
+ MyDB db;
 };
 
 

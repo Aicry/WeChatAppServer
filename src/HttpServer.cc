@@ -13,9 +13,7 @@ using namespace muduo;
 using namespace muduo::net;
 
 bool benchmark = false;
-
-//MyDB mdb;                                     
-
+                               
 
 void onRequest(const HttpRequest& req, HttpResponse* resp)
 {
@@ -48,7 +46,7 @@ void onRequest(const HttpRequest& req, HttpResponse* resp)
     resp->setStatusMessage("OK");
     resp->setContentType("text/plain");
     resp->addHeader("Server", "Muduo");  
-    resp->setBody(student.StudentLogin(req.body()));
+    resp->setBody(student.Login(req.body()));
     resp->setCloseConnection(true);
   }
     else if (req.path() == "/AdminLogin")
@@ -58,7 +56,7 @@ void onRequest(const HttpRequest& req, HttpResponse* resp)
     resp->setStatusMessage("OK");
     resp->setContentType("text/plain");
     resp->addHeader("Server", "Muduo");  
-    resp->setBody(admin.AdminLogin(req.body()));
+    resp->setBody(admin.Login(req.body()));
     resp->setCloseConnection(true);
   }
   else if (req.path() == "/Submit")
@@ -68,7 +66,7 @@ void onRequest(const HttpRequest& req, HttpResponse* resp)
     resp->setStatusMessage("OK");
     resp->setContentType("text/plain");
     resp->addHeader("Server", "Muduo");  
-    resp->setBody(student.StudentSubmit(req.body()));
+    resp->setBody(student.Submit(req.body()));
     resp->setCloseConnection(true);
   }
    else if (req.path() == "/TodaySubmit")

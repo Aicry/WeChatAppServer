@@ -163,3 +163,180 @@ Makefile:126: recipe for target 'cmTC_62f16/fast' failed
 make: *** [cmTC_62f16/fast] Error 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33817/fast"
+make[1]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_33817.dir/build.make CMakeFiles/cmTC_33817.dir/build
+make[2]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_33817.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_33817.dir/CheckSymbolExists.c.o   -c "/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_33817
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33817.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_33817.dir/CheckSymbolExists.c.o  -o cmTC_33817 
+CMakeFiles/cmTC_33817.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_33817.dir/build.make:97: recipe for target 'cmTC_33817' failed
+make[2]: *** [cmTC_33817] Error 1
+make[2]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_33817/fast' failed
+make[1]: *** [cmTC_33817/fast] Error 2
+make[1]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+
+File /home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54ede/fast"
+make[1]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_54ede.dir/build.make CMakeFiles/cmTC_54ede.dir/build
+make[2]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_54ede.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_54ede.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54ede
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54ede.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_54ede.dir/CheckFunctionExists.c.o  -o cmTC_54ede -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_54ede.dir/build.make:97: recipe for target 'cmTC_54ede' failed
+make[2]: *** [cmTC_54ede] Error 1
+make[2]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_54ede/fast' failed
+make[1]: *** [cmTC_54ede/fast] Error 2
+make[1]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4a15/fast"
+make[1]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e4a15.dir/build.make CMakeFiles/cmTC_e4a15.dir/build
+make[2]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e4a15.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e4a15.dir/CheckSymbolExists.c.o   -c "/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_e4a15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4a15.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e4a15.dir/CheckSymbolExists.c.o  -o cmTC_e4a15 
+CMakeFiles/cmTC_e4a15.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e4a15.dir/build.make:97: recipe for target 'cmTC_e4a15' failed
+make[2]: *** [cmTC_e4a15] Error 1
+make[2]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_e4a15/fast' failed
+make[1]: *** [cmTC_e4a15/fast] Error 2
+make[1]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+
+File /home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8dca/fast"
+make[1]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_c8dca.dir/build.make CMakeFiles/cmTC_c8dca.dir/build
+make[2]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c8dca.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c8dca.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c8dca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8dca.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c8dca.dir/CheckFunctionExists.c.o  -o cmTC_c8dca -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c8dca.dir/build.make:97: recipe for target 'cmTC_c8dca' failed
+make[2]: *** [cmTC_c8dca] Error 1
+make[2]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_c8dca/fast' failed
+make[1]: *** [cmTC_c8dca/fast] Error 2
+make[1]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a2d7/fast"
+make[1]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_7a2d7.dir/build.make CMakeFiles/cmTC_7a2d7.dir/build
+make[2]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7a2d7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7a2d7.dir/CheckSymbolExists.c.o   -c "/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_7a2d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a2d7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7a2d7.dir/CheckSymbolExists.c.o  -o cmTC_7a2d7 
+CMakeFiles/cmTC_7a2d7.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7a2d7.dir/build.make:97: recipe for target 'cmTC_7a2d7' failed
+make[2]: *** [cmTC_7a2d7] Error 1
+make[2]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_7a2d7/fast' failed
+make[1]: *** [cmTC_7a2d7/fast] Error 2
+make[1]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+
+File /home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ce4c/fast"
+make[1]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_5ce4c.dir/build.make CMakeFiles/cmTC_5ce4c.dir/build
+make[2]: 进入目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5ce4c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5ce4c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ce4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ce4c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5ce4c.dir/CheckFunctionExists.c.o  -o cmTC_5ce4c -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5ce4c.dir/build.make:97: recipe for target 'cmTC_5ce4c' failed
+make[2]: *** [cmTC_5ce4c] Error 1
+make[2]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_5ce4c/fast' failed
+make[1]: *** [cmTC_5ce4c/fast] Error 2
+make[1]: 离开目录“/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles/CMakeTmp”
+
+

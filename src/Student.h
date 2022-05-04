@@ -6,7 +6,7 @@
 #include<map>
 #include"MyDB.h"
 #include"struct.h"
-#include"Sharefunction.h"
+#include"Sharefunction.cc"
 using namespace std;
 
 
@@ -15,32 +15,20 @@ class Student
 
 public:
 
- 
- string StudentLogin(string param);
+ Student(){db.initDB("localhost","root","521011","WeChatApp");};
 
- StudentMsg StringToStudentMsg(string param);
-
- string StudentMsgToString(StudentMsg msg);
+ string Login(string param);
 
  string Register(string param);
 
- string StudentSubmit(string param);
-
- DailySubmitMsg StringToDailySubmitMsg(string param);
+ string Submit(string param);
 
  string GetSubmitLog(string Id);
 
-
-
-
  DailySubmitMsg ListToDailySubmitMsg(vector<string> Submit);
- string SubmitLogsMsgToString(SubmitLogsMsg msg);
-
-
-
 
 private:
- 
+ MyDB db;
 };
 
 

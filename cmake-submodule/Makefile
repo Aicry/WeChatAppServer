@@ -287,32 +287,32 @@ home/hms/muduo-tutorial(final)/src/Admin.cc.s:
 	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Admin.cc.s"
 .PHONY : home/hms/muduo-tutorial(final)/src/Admin.cc.s
 
-home/hms/muduo-tutorial(final)/src/HttpServer_test.o: home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o
+home/hms/muduo-tutorial(final)/src/HttpServer.o: home/hms/muduo-tutorial(final)/src/HttpServer.cc.o
 
-.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer_test.o
+.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer.o
 
 # target to build an object file
-home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o"
-.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o
+home/hms/muduo-tutorial(final)/src/HttpServer.cc.o:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o"
+.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer.cc.o
 
-home/hms/muduo-tutorial(final)/src/HttpServer_test.i: home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.i
+home/hms/muduo-tutorial(final)/src/HttpServer.i: home/hms/muduo-tutorial(final)/src/HttpServer.cc.i
 
-.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer_test.i
+.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer.i
 
 # target to preprocess a source file
-home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.i:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.i"
-.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.i
+home/hms/muduo-tutorial(final)/src/HttpServer.cc.i:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.i"
+.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer.cc.i
 
-home/hms/muduo-tutorial(final)/src/HttpServer_test.s: home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.s
+home/hms/muduo-tutorial(final)/src/HttpServer.s: home/hms/muduo-tutorial(final)/src/HttpServer.cc.s
 
-.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer_test.s
+.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer.s
 
 # target to generate assembly for a file
-home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.s:
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.s"
-.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.s
+home/hms/muduo-tutorial(final)/src/HttpServer.cc.s:
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.s"
+.PHONY : home/hms/muduo-tutorial(final)/src/HttpServer.cc.s
 
 home/hms/muduo-tutorial(final)/src/MyDB.o: home/hms/muduo-tutorial(final)/src/MyDB.cc.o
 
@@ -445,9 +445,9 @@ help:
 	@echo "... home/hms/muduo-tutorial(final)/src/Admin.o"
 	@echo "... home/hms/muduo-tutorial(final)/src/Admin.i"
 	@echo "... home/hms/muduo-tutorial(final)/src/Admin.s"
-	@echo "... home/hms/muduo-tutorial(final)/src/HttpServer_test.o"
-	@echo "... home/hms/muduo-tutorial(final)/src/HttpServer_test.i"
-	@echo "... home/hms/muduo-tutorial(final)/src/HttpServer_test.s"
+	@echo "... home/hms/muduo-tutorial(final)/src/HttpServer.o"
+	@echo "... home/hms/muduo-tutorial(final)/src/HttpServer.i"
+	@echo "... home/hms/muduo-tutorial(final)/src/HttpServer.s"
 	@echo "... home/hms/muduo-tutorial(final)/src/MyDB.o"
 	@echo "... home/hms/muduo-tutorial(final)/src/MyDB.i"
 	@echo "... home/hms/muduo-tutorial(final)/src/MyDB.s"

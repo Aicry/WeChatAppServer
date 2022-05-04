@@ -81,28 +81,28 @@ CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Admin.cc.o.provides: CM
 CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Admin.cc.o.provides.build: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Admin.cc.o
 
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o: CMakeFiles/hmspro.dir/flags.make
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o: /home/hms/muduo-tutorial(final)/src/HttpServer_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o" -c "/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc"
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o: CMakeFiles/hmspro.dir/flags.make
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o: /home/hms/muduo-tutorial(final)/src/HttpServer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hms/muduo-tutorial(final)/cmake-submodule/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o" -c "/home/hms/muduo-tutorial(final)/src/HttpServer.cc"
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc" > "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.i"
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hms/muduo-tutorial(final)/src/HttpServer.cc" > "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.i"
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc" -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.s"
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hms/muduo-tutorial(final)/src/HttpServer.cc" -o "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.s"
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o.requires:
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o.requires:
 
-.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o.requires
+.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o.requires
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o.provides: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o.provides.build"
-.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o.provides
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o.provides: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o.requires
+	$(MAKE) -f CMakeFiles/hmspro.dir/build.make "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o.provides.build"
+.PHONY : CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o.provides
 
-CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o.provides.build: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o
+CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o.provides.build: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o
 
 
 CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/MyDB.cc.o: CMakeFiles/hmspro.dir/flags.make
@@ -204,7 +204,7 @@ CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Student.cc.o.provides.b
 # Object files for target hmspro
 hmspro_OBJECTS = \
 "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Admin.cc.o" \
-"CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o" \
+"CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o" \
 "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/MyDB.cc.o" \
 "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Share.cc.o" \
 "CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Sharefunction.cc.o" \
@@ -214,7 +214,7 @@ hmspro_OBJECTS = \
 hmspro_EXTERNAL_OBJECTS =
 
 hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Admin.cc.o
-hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o
+hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o
 hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/MyDB.cc.o
 hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Share.cc.o
 hmspro: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Sharefunction.cc.o
@@ -235,7 +235,7 @@ CMakeFiles/hmspro.dir/build: hmspro
 .PHONY : CMakeFiles/hmspro.dir/build
 
 CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Admin.cc.o.requires
-CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer_test.cc.o.requires
+CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/HttpServer.cc.o.requires
 CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/MyDB.cc.o.requires
 CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Share.cc.o.requires
 CMakeFiles/hmspro.dir/requires: CMakeFiles/hmspro.dir/home/hms/muduo-tutorial(final)/src/Sharefunction.cc.o.requires
